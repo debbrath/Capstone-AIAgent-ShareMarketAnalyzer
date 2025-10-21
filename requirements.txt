@@ -1,0 +1,21 @@
+fastapi
+uvicorn
+crewai
+requests
+beautifulsoup4
+pandas
+numpy
+scikit-learn
+lightgbm
+chromadb
+langchain
+sentence-transformers
+joblib
+python-dotenv
+
+
+# Database & Storage
+sqlalchemy==2.0.23
+alembic==1.13.1
+pyodbc==5.0.1
+pymssql==2.2.8
