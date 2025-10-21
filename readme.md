@@ -131,6 +131,7 @@ pip install -r requirements.txt
 
 ```
 ![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_1.png)
+![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_1.png)
 ![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_2.png)
 ![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_3.png)
 ![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_4.png)
