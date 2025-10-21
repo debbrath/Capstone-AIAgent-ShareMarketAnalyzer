@@ -1,9 +1,18 @@
-# Ignore Python cache
+# Python
 __pycache__/
-*.pyc
-
-# Ignore virtual environments
-venv/
-
-# Ignore env
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
 .env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
