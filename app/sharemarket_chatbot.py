@@ -33,7 +33,7 @@ menu = st.sidebar.radio(
 # Initialize session state
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
-    
+
 # Display previous chat interactions
 for i, msg in enumerate(st.session_state.chat_history):
     with st.sidebar.expander(f"Session {i + 1}", expanded=False):
@@ -163,7 +163,7 @@ elif menu == "📈 Get History by Code":
             try:
                 session = db_manager.get_session()
                 query = text("""
-                    SELECT TOP (:limit) date, ltp, high, low, openp, closep, value_mn, volume
+                    SELECT TOP (:limit) date, ltp, high, low, openp, closep,trade, value_mn, volume
                     FROM market_history
                     WHERE trading_code = :code
                     ORDER BY date DESC
@@ -172,7 +172,7 @@ elif menu == "📈 Get History by Code":
                 session.close()
 
                 if rows:
-                    df = pd.DataFrame(rows, columns=["Date", "LTP", "High", "Low", "Open", "Close", "Value (Mn)", "Volume"])
+                    df = pd.DataFrame(rows, columns=["Date", "LTP", "High", "Low", "Open", "Close","Trade", "Value (Mn)", "Volume"])
                     st.subheader(f"📊 Last {limit} Records for {selected_code}")
                     st.dataframe(df)
                     st.line_chart(df.set_index("Date")["LTP"])
@@ -196,3 +196,7 @@ elif menu == "🗑️ Clear Chat History":
 # Cleanup
 # -------------------------------
 db_manager.close()
+
+
+#(.venv) PS F:\Python\Capstone_AIAgent_Prediction> set PYTHONPATH=%CD%
+#>> streamlit run app/sharemarket_chatbot.py
