@@ -1,6 +1,6 @@
 # 🤖 Capstone-AIAgent-ShareMarketAnalyzer
 
-The Capstone-AIAgent-ShareMarketAnalyzer is an AI-powered stock market analysis tool developed as part of a capstone project. It leverages machine learning models to predict stock market trends, providing insights into potential investment opportunities.
+The Capstone-AIAgent-ShareMarketAnalyzer is an AI-powered stock market analysis tool developed as part of a project. It leverages machine learning models to predict stock market trends, providing insights into potential investment opportunities.
 
 <br/>
 
