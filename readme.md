@@ -1,14 +1,12 @@
 # 🤖 Capstone-AIAgent-ShareMarketAnalyzer
 
-📊 Overview
-
-The Capstone-AIAgent-ShareMarketAnalyzer is an AI-powered stock market analysis tool developed as part of a capstone project. It leverages machine learning models to predict stock market trends, providing insights into potential investment opportunities.
+The Capstone-AIAgent-ShareMarketAnalyzer is an AI-powered stock market analysis tool developed as part of a project. It leverages machine learning models to predict stock market trends, providing insights into potential investment opportunities.
 
 <br/>
 
 ## 🚀 Features
 
-- ✅ Stock Price Prediction: Utilizes machine learning algorithms to            forecast future stock prices.
+- ✅ Stock Price Prediction: Utilizes machine learning algorithms to forecast future stock prices.
 - ✅ Data Visualization: Presents historical stock data and predictions through interactive charts.
 - ✅ User-Friendly Interface:  Designed with a simple and intuitive user interface for ease of use.
 
@@ -22,7 +20,7 @@ The Capstone-AIAgent-ShareMarketAnalyzer is an AI-powered stock market analysis 
 
 - Machine Learning: scikit-learn, TensorFlow
 
-- Data Visualization: Matplotlib, Plotly
+- Data Visualization: Matplotlib, Plotly, API
 
 - Database: MSSQL
 
@@ -134,6 +132,7 @@ pip install -r requirements.txt
 ![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_2.png)
 ![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_3.png)
 ![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_4.png)
+![Screenshot](https://github.com/debbrath/Capstone-AIAgent-ShareMarketAnalyzer/blob/main/image/cap_5.png)
 
 ```
 ```
