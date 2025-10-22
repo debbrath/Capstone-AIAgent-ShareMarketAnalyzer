@@ -12,7 +12,7 @@ langchain
 sentence-transformers
 joblib
 python-dotenv
-
+stocksurferbd
 
 # Database & Storage
 sqlalchemy==2.0.23
